@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Navbar } from '@/components/Navbar';
 import { BookCard } from '@/components/BookCard';
+import { BookChatbot } from '@/components/BookChatbot';
 import { books } from '@/lib/bookData';
 import { Button } from '@/components/ui/button';
 
@@ -54,6 +55,8 @@ const Index = () => {
           ))}
         </div>
       </section>
+      
+      <BookChatbot />
     </div>
   );
 };
